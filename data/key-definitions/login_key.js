@@ -5,6 +5,7 @@ class keyLogin {
   LOGIN_PAGE_POPUP_SUCCESS = `//android.widget.TextView[@resource-id="android:id/alertTitle"]`;
   LOGIN_PAGE_POPUP_MESSAGE = `//android.widget.TextView[@resource-id="android:id/message"]`;
   LOGIN_BUTTON_OK = `//android.widget.Button[@resource-id="android:id/button1"]`;
+  LOGIN_CONTAINER_BUTTON = `//android.view.View[@content-desc="Login"]`;
 }
 
 module.exports = new keyLogin();
