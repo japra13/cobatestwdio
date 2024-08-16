@@ -13,6 +13,7 @@ class keyForms {
   FORMS_CONTENT_ASKMELATER_BUTTON = `//android.widget.Button[@resource-id="android:id/button3"]`;
   FORMS_CONTENT_CANCEL_BUTTON = `//android.widget.Button[@resource-id="android:id/button2"]`;
   FORMS_CONTENT_OK_BUTTON = `//android.widget.Button[@resource-id="android:id/button1"]`;
+  FORMS_BLABLA = ``;
 }
 
 module.exports = new keyForms();
