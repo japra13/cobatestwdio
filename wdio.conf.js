@@ -5,7 +5,7 @@ exports.config = {
   // ====================
   // WebdriverIO supports running e2e tests as well as unit and component tests.
   runner: "local",
-  port: 4724,
+  port: 4723,
   //
   // ==================
   // Specify Test Files
@@ -51,10 +51,10 @@ exports.config = {
   capabilities: [
     {
       // capabilities for local Appium web tests on an Android Emulator
-      platformName: "Android",
+      platformName: "android",
       "appium:deviceName": "emulator-5554",
       "appium:platformVersion": "15.0",
-      "appium:automationName": "UiAutomator2",
+      "appium:automationName": "uiautomator2",
     },
   ],
 
@@ -105,7 +105,8 @@ exports.config = {
   // Services take over a specific job you don't want to take care of. They enhance
   // your test setup with almost no effort. Unlike plugins, they don't add new
   // commands. Instead, they hook themselves up into the test process.
-  services: ["appium", "visual"],
+  services: [], //hanya utk ngambil services di folder yg bersangkutan
+  
 
   // Framework you want to run your specs with.
   // The following are supported: Mocha, Jasmine, and Cucumber
