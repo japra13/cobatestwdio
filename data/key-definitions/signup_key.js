@@ -8,7 +8,7 @@ class keySignup {
   SIGNUP_BUTTON_OK = `//android.widget.Button[@resource-id="android:id/button1"]`;
   SIGNUP_CONTENT_POPUP = `//android.widget.FrameLayout[@resource-id="android:id/content"]`;
   SIGNUP_TAB = `//android.view.ViewGroup[@content-desc="button-sign-up-container"]`;
-  // SIGNUP_CONTAINER_BUTTON = ``;
+  SIGNUP_CONTAINER_BUTTON = `//android.view.View[@content-desc="Login"]`;
 }
 
 module.exports = new keySignup();
