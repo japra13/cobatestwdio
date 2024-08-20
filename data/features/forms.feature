@@ -31,7 +31,7 @@ Feature: Halaman Forms
         Then 13_User melihat popup tertutup setelah menekan
 
         Examples:
-            | input         |
-            | 123abcd456def |
+            | input  |
+            | 123qwe |
 
 
