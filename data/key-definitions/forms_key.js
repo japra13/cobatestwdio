@@ -11,6 +11,8 @@ class keyForms {
   // FORMS_DROPDOWN_THIS_APP = `//*[@resource-id="android:id/text1" and @text="This app is awesome"]`;
   FORMS_ACTIVE_BUTTON = `//*[@content-desc="button-Active"]`;
   FORMS_CONTENT_POPUP = `//*[@resource-id="android:id/content"]`;
+  FORMS_ALERT_TITLE_POPUP = `//*[@resource-id="android:id/alertTitle"]`;
+  FORMS_MESSAGE_POPUP = `//*[@resource-id="android:id/message"]`;
   FORMS_CONTENT_ASKMELATER_BUTTON = `//*[@resource-id="android:id/button3"]`;
   FORMS_CONTENT_CANCEL_BUTTON = `//*[@resource-id="android:id/button2"]`;
   FORMS_CONTENT_OK_BUTTON = `//*[@resource-id="android:id/button1"]`;
