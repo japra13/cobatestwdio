@@ -17,6 +17,8 @@ class keyForms {
   FORMS_CONTENT_CANCEL_BUTTON = `//*[@resource-id="android:id/button2"]`;
   FORMS_CONTENT_OK_BUTTON = `//*[@resource-id="android:id/button1"]`;
   FORMS_CONTAINER_BUTTON = `//*[@content-desc="Forms"]`;
+  FORMS_CONTENT_ACTIVE_BUTTON = (text) =>
+    `//*[@resource-id='${text}' and @index='${text}']`;
 }
 
 module.exports = new keyForms();
