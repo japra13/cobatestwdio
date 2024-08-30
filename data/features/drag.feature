@@ -17,3 +17,12 @@ Feature: Halaman Drag & Drop
     Then 06_Terjadi perpindahan kotak R2 ke kotak R2
     When 07_User melakukan drag C2 lalu drop pada kotak C2
     Then 07_Terjadi perpindahan kotak C2 ke kotak C2
+    When 08_User melakukan drag L3 lalu drop pada kotak L3
+    Then 08_Terjadi perpindahan kotak L3 ke kotak L3
+    When 09_User melakukan drag R3 lalu drop pada kotak R3
+    Then 09_Terjadi perpindahan kotak R3 ke kotak R3
+    When 10_User melakukan drag C3 lalu drop pada kotak C3
+    Then 10_Terjadi perpindahan kotak C3 ke kotak C3
+    Then 10_Kotak terpenuhi dan pindah Page
+    When 11_User menekan tombol Retry
+    Then 11_Kembali ke page Drag yang awal
